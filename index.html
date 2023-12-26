@@ -8,11 +8,6 @@
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 
-    <!-- FONT FAMILY -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
     <!-- ICON JS -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     
@@ -22,8 +17,8 @@
     <div class="main-container">
         <div class="navbar">
             <nav>
-                <div class="logo">
-                    <h1>ARTIFLEX</h1>
+                <div class="logo" onclick="window.location.href='index.html'">
+                    <h1>Torque & Texture</h1>
                 </div>
                 <ul class="classic">
                     <li><a href="./pages/all-posters.html">Posters</a></li>
@@ -91,69 +86,69 @@
             </div>
         </div>
         <div class="shop-all">
-            <div class="wrapper">
+            <div class="wrapper" id="homepage-banner">
                 <div class="text">
                     <div class="mini-heading">
-                        <p>Bring your home closer to the future</p>
+                        <p>Posters that fuel your dreams</p>
                     </div>
                     <div class="heading">
                         <h3>Framed Art Prints</h3>
                     </div>
                     <div class="button">
-                        <button class="btn">Shop All</button>
+                        <button class="btn" onclick="window.location.href='pages/all-posters.html'">Shop All</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="varities-of-posters">
             <div class="cards">
-                <div class="card">
+                <div class="card" id="new-arrivals-hp" onclick="window.location.href='pages/new-arrivals.html'">
                     <div class="wrapper">
                         <div class="text">
                             <div class="mini-heading">
-                                <p>Taking a look back</p>
+                                <p>Get the New Piece</p>
                             </div>
                             <div class="heading">
-                                <h2>Retro</h2>
+                                <h2>New Arrivals</h2>
                             </div>
                             <button class="btn shop-now">Shop Now</button>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="classics-hp" onclick="window.location.href='pages/classics.html'">
                     <div class="wrapper">
                         <div class="text">
                             <div class="mini-heading">
-                                <p>Taking a look back</p>
+                                <p>Simplicity Reimagined</p>
                             </div>
                             <div class="heading">
-                                <h2>Retro</h2>
+                                <h2>Classic</h2>
                             </div>
                             <button class="btn shop-now">Shop Now</button>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="limited-edition-hp" onclick="window.location.href='pages/limited-edition.html'">
                     <div class="wrapper">
                         <div class="text">
                             <div class="mini-heading">
-                                <p>Taking a look back</p>
+                                <p>Be Outstanding</p>
                             </div>
                             <div class="heading">
-                                <h2>Retro</h2>
+                                <h2>Limited</h2>
                             </div>
                             <button class="btn shop-now">Shop Now</button>
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="custom-made-hp" onclick="window.location.href='pages/custom-made.html'">
                     <div class="wrapper">
                         <div class="text">
                             <div class="mini-heading">
-                                <p>Taking a look back</p>
+                                <p>Specially for YOU</p>
                             </div>
                             <div class="heading">
-                                <h2>Retro</h2>
+                                <h2>Custom</h2>
                             </div>
                             <button class="btn shop-now">Shop Now</button>
                         </div>
@@ -161,7 +156,8 @@
                 </div>
             </div>
         </div>
-        <div class="sale-section">
+
+        <!-- <div class="sale-section" id="winter-sale-hp">
             <div class="wrapper">
                 <div class="text">
                     <div class="mini-heading">
@@ -173,7 +169,8 @@
                     <button class="btn">Shop Now</button>
                 </div>
             </div>
-        </div>
+        </div> -->
+        
         <div class="web-features two">
             <div class="wrapper">
                 <div class="col one">
@@ -214,7 +211,8 @@
                 </div>
             </div>
         </div>
-        <div class="two-shop-now">
+        
+        <!-- <div class="two-shop-now">
             <div class="sale-cards">
                 <div class="wrapper">
                     <div class="text">
@@ -241,8 +239,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="editors-pick">
+        </div> -->
+        
+        <div class="editors-pick" id="hp">
             <div class="top-row">
                 <div class="col one">
                     <div class="mini-heading">
@@ -257,7 +256,7 @@
                 </div>
             </div>
             <div class="cards">
-                <div class="card">
+                <div class="card" id="editors-pick-hp-one">
                     <div class="wrapper">
                         <div class="text">
                             <h4>Cyberopolis</h4>
@@ -265,7 +264,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="editors-pick-hp-two">
                     <div class="wrapper">
                         <div class="text">
                             <h4>Cyberopolis</h4>
@@ -273,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="editors-pick-hp-three">
                     <div class="wrapper">
                         <div class="text">
                             <h4>Cyberopolis</h4>
@@ -281,7 +280,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="editors-pick-hp-four">
                     <div class="wrapper">
                         <div class="text">
                             <h4>Cyberopolis</h4>
@@ -331,7 +330,8 @@
                 </div>
             </div>
         </div>
-        <div class="winter-sale">
+        
+        <!-- <div class="winter-sale" id="hp">
             <div class="top-row">
                 <div class="col one">
                     <div class="mini-heading">
@@ -346,7 +346,7 @@
                 </div>
             </div>
             <div class="cards">
-                <div class="card">
+                <div class="card" id="sale-hp-one">
                     <div class="wrapper">
                         <div class="text">
                             <h4>Cyberopolis</h4>
@@ -357,7 +357,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="sale-hp-two">
                     <div class="wrapper">
                         <div class="text">
                             <h4>Cyberopolis</h4>
@@ -368,7 +368,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="sale-hp-three">
                     <div class="wrapper">
                         <div class="text">
                             <h4>Cyberopolis</h4>
@@ -379,7 +379,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" id="sale-hp-four">
                     <div class="wrapper">
                         <div class="text">
                             <h4>Cyberopolis</h4>
@@ -387,6 +387,56 @@
                         </div>
                         <div class="sale">
                             <p>Sale</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+        <div class="editors-pick" id="new-arrivals"> <!-- This is for the All New Arrivals in Posters Page -->
+            <div class="top-row">
+                <div class="col one">
+                    <div class="mini-heading">
+                        <p>Get the Latest</p>
+                    </div>
+                    <div class="heading">
+                        <h2>All New Arrivals</h2>
+                    </div>
+                </div>
+                <div class="col two">
+                    <p><a href="#">Shop All</a></p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card one">
+                    <div class="wrapper">
+                        <div class="text">
+                            <h4>Cyberopolis</h4>
+                            <p>Feel the New ERA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card two">
+                    <div class="wrapper">
+                        <div class="text">
+                            <h4>Cyberopolis</h4>
+                            <p>Feel the New ERA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card three">
+                    <div class="wrapper">
+                        <div class="text">
+                            <h4>Cyberopolis</h4>
+                            <p>Feel the New ERA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card four">
+                    <div class="wrapper">
+                        <div class="text">
+                            <h4>Cyberopolis</h4>
+                            <p>Feel the New ERA</p>
                         </div>
                     </div>
                 </div>
@@ -487,9 +537,9 @@
                     <p>Browse our extensive FAQs database or contact us and we'll get your questions answered within 24 hours.</p>
                 </div>
                 <div class="button-gp">
-                    <button class="btn">Shipping & Returns</button>
-                    <button class="btn">FAQs</button>
-                    <button class="btn">Contact Us</button>
+                    <button class="btn" onclick="window.location.href='pages/shipping-policy.html'">Shipping & Returns</button>
+                    <button class="btn" onclick="window.location.href='pages/faqs.html'">FAQs</button>
+                    <button class="btn" onclick="window.location.href='pages/contact.html'">Contact Us</button>
                 </div>
             </div>
         </div>
@@ -500,14 +550,14 @@
                         <h1>Subscribe to our emails</h1>
                     </div>
                     <div class="sub-heading">
-                        <p>Be the first to know about new collections and exclusive offers.</p>
+                        <p>Be the first to know about our New collections and Exclusive offers.</p>
                     </div>
                 </div>
-                <form>
+                <form name="submit-email-subscription">
                     <label>
                         <i class="ph-bold ph-envelope-simple"></i>
-                        <input type="email" placeholder="Enter Your Email">
-                        <button class="btn">Subscribe</button>
+                        <input name="email" type="email" placeholder="Enter Your Email" id="email-input" required>
+                        <button type="submit" class="btn" id="email-sub-btn">Subscribe</button>
                     </label>
                 </form>
             </div>
@@ -515,17 +565,17 @@
         <div class="footer">
             <div class="wrapper">
                 <div class="title">
-                    <h1>ARTIFLEX</h1>
+                    <h1>Torque & Texture</h1>
                 </div>
                 <div class="sub-title">
-                    <p>Poster's from the future.</p>
+                    <p>Posters that fuel your dreams. </p>
                 </div>
                 <div class="social-media">
                     <i class="ph-thin ph-instagram-logo"></i>
                     <i class="ph-thin ph-tiktok-logo"></i>
                 </div>
                 <div class="copyright">
-                    <p>© 2023 ARTIFLEX. All rights reserved.</p>
+                    <p>© 2023 Torque & Texture. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -533,6 +583,9 @@
 
     <!-- JS -->
     <script src="index.js"></script>
+
+    <!-- Email Subscription Js -->
+    <script src="email-subs.js"></script>
     
 </body>
 </html>

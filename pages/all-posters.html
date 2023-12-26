@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Posters 🖼️ | Piston & Palette</title>
+    <title>All Posters 🖼️ | Torque & Texture</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="../styles.css">
@@ -17,8 +17,8 @@
     <div class="main-container">
         <div class="navbar">
             <nav>
-                <div class="logo">
-                    <h1>ARTIFLEX</h1>
+                <div class="logo" onclick="window.location.href='../index.html'">
+                    <h1>Torque & Texture</h1>
                 </div>
                 <ul class="classic">
                     <li><a href="../pages/all-posters.html">Posters</a></li>
@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <div class="winter-sale">
+        <!-- <div class="winter-sale">
             <div class="top-row">
                 <div class="col one">
                     <div class="mini-heading">
@@ -145,7 +145,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="editors-pick" id="new-arrivals"> <!-- This is for the All New Arrivals in Posters Page -->
             <div class="top-row">
                 <div class="col one">
@@ -186,6 +186,55 @@
                     </div>
                 </div>
                 <div class="card four">
+                    <div class="wrapper">
+                        <div class="text">
+                            <h4>Cyberopolis</h4>
+                            <p>Feel the New ERA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="editors-pick" id="hp">
+            <div class="top-row">
+                <div class="col one">
+                    <div class="mini-heading">
+                        <p>Future is here</p>
+                    </div>
+                    <div class="heading">
+                        <h2>Editor's Pick</h2>
+                    </div>
+                </div>
+                <div class="col two">
+                    <p><a href="#">Shop All</a></p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card" id="editors-pick-hp-one">
+                    <div class="wrapper">
+                        <div class="text">
+                            <h4>Cyberopolis</h4>
+                            <p>Feel the New ERA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="editors-pick-hp-two">
+                    <div class="wrapper">
+                        <div class="text">
+                            <h4>Cyberopolis</h4>
+                            <p>Feel the New ERA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="editors-pick-hp-three">
+                    <div class="wrapper">
+                        <div class="text">
+                            <h4>Cyberopolis</h4>
+                            <p>Feel the New ERA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" id="editors-pick-hp-four">
                     <div class="wrapper">
                         <div class="text">
                             <h4>Cyberopolis</h4>
@@ -300,14 +349,14 @@
                         <h1>Subscribe to our emails</h1>
                     </div>
                     <div class="sub-heading">
-                        <p>Be the first to know about new collections and exclusive offers.</p>
+                        <p>Be the first to know about our New collections and Exclusive offers.</p>
                     </div>
                 </div>
-                <form>
+                <form name="submit-email-subscription">
                     <label>
                         <i class="ph-bold ph-envelope-simple"></i>
-                        <input type="email" placeholder="Enter Your Email">
-                        <button class="btn">Subscribe</button>
+                        <input name="email" type="email" placeholder="Enter Your Email" id="email-input" required>
+                        <button type="submit" class="btn" id="email-sub-btn">Subscribe</button>
                     </label>
                 </form>
             </div>
@@ -315,17 +364,17 @@
         <div class="footer">
             <div class="wrapper">
                 <div class="title">
-                    <h1>ARTIFLEX</h1>
+                    <h1>Torque & Texture</h1>
                 </div>
                 <div class="sub-title">
-                    <p>Poster's from the future.</p>
+                    <p>Posters that fuel your dreams. </p>
                 </div>
                 <div class="social-media">
                     <i class="ph-thin ph-instagram-logo"></i>
                     <i class="ph-thin ph-tiktok-logo"></i>
                 </div>
                 <div class="copyright">
-                    <p>© 2023 ARTIFLEX. All rights reserved.</p>
+                    <p>© 2023 Torque & Texture. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -333,6 +382,9 @@
 
     <!-- JS -->
     <script src="../index.js"></script>
+
+    <!-- Email Subscription Js -->
+    <script src="../email-subs.js"></script>
     
 </body>
 </html>
