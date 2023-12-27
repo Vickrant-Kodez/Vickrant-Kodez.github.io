@@ -17,6 +17,16 @@
     --h4-font-size: 18px;
 }
 
+/* ==== SCROLLBAR ==== */
+::-webkit-scrollbar {
+    width: 6px; 
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 10px; 
+    background-color: #282828;
+}
+
 a, p, h1, h2, h3, h4{
     color: #e0e0e0;
 }
@@ -549,6 +559,42 @@ body{
     box-shadow: 15px 15px 22px 0px rgba(0,0,0,0.3);
     transition: all 300ms 0s ease;
     cursor: pointer;
+}
+
+.editors-pick.you-may-also-like-this .cards .card.like-this-one .wrapper{
+    background-image: url('./Images/supra/mockup-1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: calc(100% - 100px);
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.editors-pick.you-may-also-like-this .cards .card.like-this-two .wrapper{
+    background-image: url('./Images/ferrari/mockup-2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: calc(100% - 100px);
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.editors-pick.you-may-also-like-this .cards .card.like-this-three .wrapper{
+    background-image: url('./Images/bmw/mockup-1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: calc(100% - 100px);
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.editors-pick.you-may-also-like-this .cards .card.like-this-four .wrapper{
+    background-image: url('./Images/911/mockup-1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: calc(100% - 100px);
+    border-radius: 12px;
+    margin: 10px;
 }
 
 .editors-pick#hp .cards .card#editors-pick-hp-one .wrapper{
@@ -1105,7 +1151,7 @@ body{
 }
 
 .testimonials .wrapper .cards .card .card-wrapper .star i{
-    color: #a8a8a8;
+    color: #4285f4;
 }
 
 .testimonials .wrapper .cards .card .card-wrapper .review-title{
