@@ -119,32 +119,32 @@
                     </div>
                 </div>
                 <div class="contact-right-form">
-                    <form>
+                    <form name="contact-form-submit">
                         <label>
                             <p>First Name
                                 <i class="ph ph-identification-card"></i>
                             </p>
-                            <input type="email" placeholder="Your First Name">
+                            <input type="text" id="contact-f-name" name="firstName" placeholder="Your First Name" required>
                         </label>
                         <label>
                             <p>Last Name
                                 <i class="ph ph-identification-card"></i>
                             </p>
-                            <input type="email" placeholder="Your Last Name">
+                            <input type="text" name="lastName" placeholder="Your Last Name" required>
                         </label>
                         <label>
                             <p>Email
                                 <i class="ph ph-envelope-simple"></i>
                             </p>
-                            <input type="email" placeholder="Your Email">
+                            <input type="email" name="email" placeholder="Your Email" required>
                         </label>
                         <label>
                             <p>Your Message
                                 <i class="ph ph-paper-plane-tilt"></i>
                             </p>
-                            <textarea cols="30" rows="10" placeholder="Your Message..."></textarea>
+                            <textarea cols="30" rows="10" name="Message" placeholder="Your Message..." required></textarea>
                         </label>
-                        <button class="submit-contact">Submit</button>
+                        <button type="submit" id="contact-submit" class="submit-contact">Submit</button>
                     </form>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                 </div>
             </div>
         </div>
-        <div class="newsletter">
+        <!-- <div class="newsletter">
             <div class="wrapper">
                 <div class="text">
                     <div class="main-heading">
@@ -188,7 +188,7 @@
                     </label>
                 </form>
             </div>
-        </div>
+        </div> -->
         <div class="footer">
             <div class="wrapper">
                 <div class="title">
@@ -211,8 +211,8 @@
     <!-- JS -->
     <script src="../index.js"></script>
 
-    <!-- Email Subscription Js -->
-    <script src="../email-subs.js"></script>
+    <!-- Contact us form Js -->
+    <script src="../contact-form.js"></script>
     
 </body>
 </html>

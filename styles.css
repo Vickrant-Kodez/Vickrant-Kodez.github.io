@@ -273,7 +273,7 @@ body{
 }
 
 .varities-of-posters .cards .card#custom-made-hp .wrapper{
-    background-image: url('./Images/supra/mockup-1.jpg');
+    background-image: url('./Images/showcase/custom-made.jpg');
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -1354,14 +1354,14 @@ body{
 
 .product-section .the-product .image-sec .main-img{
     width: 750px;
-    height: 750px;
+    height: 900px;
     background-color: #292929;
     border-radius: 14px;
 }
 
 .product-section .the-product .image-sec .main-img img{
     width: 750px;
-    height: 750px;
+    height: 900px;
     object-position: center;
     object-fit: cover;
     padding: 50px;
@@ -1388,6 +1388,12 @@ body{
 
 .product-section .the-product .details-sec .pro-heading h2{
     font-size: 36px;
+}
+
+.product-section .the-product .details-sec .pro-heading h4{
+    font-weight: normal;
+    color: #adadad;
+    font-size: 17px;
 }
 
 .product-section .the-product .details-sec .pro-price{
@@ -2157,6 +2163,89 @@ body{
     margin-top: 1.75rem;
 }
 
+/* ====  CUSTOM ORDER ==== */
+.custom-order-heading{
+    text-align: center;
+    margin: 2.5rem;
+}
+
+.custom-order-heading h1{
+    font-size: 35px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-style: wavy;
+    text-decoration-color: pink;
+}
+
+.custom-made-container{
+    margin: 0 2.5rem;
+    background-color: #292929;
+    padding: 24px;
+    border-radius: 16px;
+}
+.custom-made-container .heading{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.custom-made-container .custom-filling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-made-container .custom-filling form{
+    width: 400px;
+}
+
+.custom-made-container .custom-filling form label input{
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 0.85rem;
+    background-color: #363636;
+    color: #e3e3e3;
+}
+
+
+.custom-made-container .custom-filling form label i{
+    position: relative;
+    top: 2px;
+}
+
+.custom-made-container .custom-filling form label textarea{
+    resize: vertical;
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #363636;
+    color: #e3e3e3;
+}
+
+.custom-made-container .custom-filling form button{
+    margin-top: 0.5rem;
+    padding: 11px 12px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 8px;
+    outline: none;
+    background-color: #e3e3e3;
+    border: 1px solid #e3e3e3;
+    cursor: pointer;
+    transition: all 300ms 0s ease;
+}
+
+.custom-made-container .custom-filling form button:hover{
+    background-color: transparent;
+    border: 1px solid #e3e3e3;
+    color: #e3e3e3;
+}
+
 /* ==== MEDIA QUERIES ==== */
 @media (max-width: 1200px) {
     .product-section .the-product {
@@ -2164,11 +2253,11 @@ body{
     }
     .product-section .the-product .image-sec .main-img {
         width: 650px;
-        height: 650px;
+        height: 850px;
     }
     .product-section .the-product .image-sec .main-img img {
         width: 650px;
-        height: 650px;
+        height: 850px;
     }
     .product-section .the-product .image-sec .small-img img {
         height: 105px;
@@ -2217,11 +2306,11 @@ body{
     }
     .product-section .the-product .image-sec .main-img {
         width: 550px;
-        height: 550px;
+        height: 725px;
     }
     .product-section .the-product .image-sec .main-img img {
         width: 550px;
-        height: 550px;
+        height: 725px;
     }
     .product-section .the-product .image-sec .small-img img {
         height: 90px;
@@ -2261,11 +2350,11 @@ body{
     }
     .product-section .the-product .image-sec .main-img {
         width: 500px;
-        height: 500px;
+        height: 675px;
     }
     .product-section .the-product .image-sec .main-img img {
         width: 500px;
-        height: 500px;
+        height: 675px;
     }
     .product-section .the-product .image-sec .small-img img {
         height: 84px;
@@ -2382,11 +2471,13 @@ body{
     }
     .product-section .the-product .image-sec .main-img {
         width: 100%;
-        height: 625px;
+        height: 800px;
     }
     .product-section .the-product .image-sec .main-img img {
         width: 100%;
-        height: 625px;
+        height: 800px;
+        padding: 28px;
+        border-radius: 42px;
     }
     .product-section .the-product .image-sec .small-img {
         flex-direction: column;
@@ -2707,6 +2798,15 @@ body{
         max-width: 100%;
         margin: 2rem
     }
+    .custom-made-container {
+        margin: 0 2rem;
+    }
+    .custom-order-heading h1 {
+        font-size: 30px;
+    }
+    .custom-made-container .heading h1 {
+        font-size: 28px;
+    }
 }
 @media (max-width: 750px) {
     .testimonials .wrapper .cards {
@@ -2752,6 +2852,15 @@ body{
     }
     .contact-sec .contact-group .contact-right-form {
         padding: 1rem 0 0 0;
+    }
+    .product-section .the-product .image-sec .main-img{
+        height: 700px;
+    }
+    .product-section .the-product .image-sec .main-img img {
+        width: 100%;
+        height: 700px;
+        padding: 24px;
+        border-radius: 38px;
     }
 }
 @media (max-width: 700px) {
@@ -2977,6 +3086,12 @@ body{
         transition: all 300ms 0s ease;
         cursor: pointer;
     }
+    .custom-order-heading h1 {
+        font-size: 26px;
+    }
+    .custom-made-container .heading h1 {
+        font-size: 25px;
+    }
 }
 @media (max-width: 550px) {
     .editors-pick .cards {
@@ -3097,6 +3212,15 @@ body{
     }
     .shipping-returns .heading h1 i{
         font-size: 24px;
+    }
+    .custom-order-heading{
+        margin: 1.5rem 2rem;
+    }
+    .custom-order-heading h1 {
+        line-height: 2.2;
+    }
+    .custom-made-container .heading h1 {
+        font-size: 23px;
     }
 }
 @media (max-width: 500px) {
@@ -3370,7 +3494,13 @@ body{
         position: relative;
         top: 1px;
     }
-    
+    .custom-order-heading h1 {
+        font-size: 21px;
+        line-height: 2.3;
+    }
+    .custom-made-container .heading h1 {
+        font-size: 20px;
+    }
 }
 @media (max-width: 425px) {
     .product-section .the-product .image-sec .small-img {
@@ -3417,6 +3547,9 @@ body{
 
     .shipping-returns-policy .heading h1 i{
         top: 5px;
+    }
+    .main-container .navbar nav .logo h1 {
+        font-size: 30px;
     }
 }
 @media (max-width: 400px) {
@@ -3467,6 +3600,16 @@ body{
     }
     .main-container .pro-navbar .wrapper .col.two .button-sec button i {
         font-size: 13px;
+    }
+    .custom-order-heading h1 {
+        text-decoration: none;
+        line-height: 1.75;
+    }
+    .custom-made-container .custom-filling form label p{
+        font-size: 14px;
+    }
+    .custom-made-container .custom-filling form label i{
+        padding-left: 0.3rem;
     }
 }
 @media (max-width: 375px) {
@@ -3619,6 +3762,15 @@ body{
     .about-us-container .wrapper .about-us-desc p{
         font-size: 14px;
     }
+    .custom-order-heading {
+        margin: 1.5rem 1.25rem;
+    }
+    .custom-made-container {
+        margin: 0 1.25rem;
+    }
+    .main-container .navbar nav .logo h1 {
+        font-size: 26px;
+    }
 }
 @media (max-width: 350px) {
     .product-section .the-product .image-sec .main-img {
@@ -3696,6 +3848,9 @@ body{
     }
     .shipping-returns-policy .heading h1 i{
         font-size: 26px;
+    }
+    .main-container .navbar nav .logo h1 {
+        font-size: 24px;
     }
 }
 @media (max-width: 320px) {
@@ -3836,7 +3991,9 @@ body{
     .about-us-container .wrapper{
         padding: 20px;
     }
-    
+    .main-container .navbar nav .logo h1 {
+        font-size: 22px;
+    }
 }
 @media (max-width: 280px) {
     .web-features .wrapper .col .txt p {
@@ -3879,5 +4036,8 @@ body{
     }
     .sale-cards .wrapper .text .heading h2 {
         font-size: 20px;
+    }
+    .main-container .navbar nav .logo h1 {
+        font-size: 19px;
     }
 }

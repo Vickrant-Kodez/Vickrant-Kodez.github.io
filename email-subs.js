@@ -1,5 +1,4 @@
 // For Email Subscription
-
 const scriptURL = 'https://script.google.com/macros/s/AKfycbyIg6Fq-GRfkpNYas0qVPeQvcAAfI2RkR8wErhmIOk7u78IEvUjTRNo2UwYdE-S0lplDg/exec'
 const form = document.forms['submit-email-subscription']
 
@@ -8,7 +7,7 @@ form.addEventListener('submit', e => {
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => console.log('Success!', response))
         .catch(error => console.error('Error!', error.message))
-})
+});
 
 // Get the button element
 const subscribe_button = document.getElementById("email-sub-btn");
