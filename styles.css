@@ -561,6 +561,10 @@ body{
     cursor: pointer;
 }
 
+.editors-pick.you-may-also-like-this{
+    display: none;
+}
+
 .editors-pick.you-may-also-like-this .cards .card.like-this-one .wrapper{
     background-image: url('./Images/supra/mockup-1.jpg');
     background-position: center;
@@ -607,7 +611,7 @@ body{
 }
 
 .editors-pick#hp .cards .card#editors-pick-hp-two .wrapper{
-    background-image: url('./Images/ferrari/mockup-5.jpg');
+    background-image: url('./Images/ferrari/mockup-3.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -659,7 +663,7 @@ body{
 }
 
 .editors-pick#new-arrivals .cards .card.three .wrapper{
-    background-image: url('./Images/lambo/mockup-2.jpg');
+    background-image: url('./Images/lambo/mockup-1.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -668,7 +672,7 @@ body{
 }
 
 .editors-pick#new-arrivals .cards .card.four .wrapper{
-    background-image: url('./Images/ferrari/mockup-8.jpg');
+    background-image: url('./Images/lambo/mockup-2.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -677,7 +681,7 @@ body{
 }
 
 .editors-pick#new-arrivals .cards .card.five .wrapper{
-    background-image: url('./Images/ferrari/mockup-7.jpg');
+    background-image: url('./Images/lambo/mockup-3.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -723,7 +727,7 @@ body{
 }
 
 .editors-pick#classics .cards .card.two .wrapper{
-    background-image: url('./Images/ferrari/mockup-5.jpg');
+    background-image: url('./Images/ferrari/mockup-2.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -732,7 +736,7 @@ body{
 }
 
 .editors-pick#classics .cards .card.three .wrapper{
-    background-image: url('./Images/ferrari/mockup-8.jpg');
+    background-image: url('./Images/ferrari/mockup-3.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -768,7 +772,7 @@ body{
 }
 
 .editors-pick#classics .cards .card.seven .wrapper{
-    background-image: url('./Images/ferrari/mockup-2.jpg');
+    background-image: url('./Images/mustang/mockup-1.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -777,7 +781,7 @@ body{
 }
 
 .editors-pick#classics .cards .card.eight .wrapper{
-    background-image: url('./Images/ferrari/mockup-4.jpg');
+    background-image: url('./Images/mustang/mockup-2.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -795,34 +799,7 @@ body{
 }
 
 .editors-pick#classics .cards .card.ten .wrapper{
-    background-image: url('./Images/ferrari/mockup-7.jpg');
-    background-position: center;
-    background-size: cover;
-    height: calc(100% - 100px);
-    border-radius: 12px;
-    margin: 10px;
-}
-
-.editors-pick#classics .cards .card.eleven .wrapper{
     background-image: url('./Images/ferrari/mockup-9.jpg');
-    background-position: center;
-    background-size: cover;
-    height: calc(100% - 100px);
-    border-radius: 12px;
-    margin: 10px;
-}
-
-.editors-pick#classics .cards .card.twelve .wrapper{
-    background-image: url('./Images/ferrari/mockup-3.jpg');
-    background-position: center;
-    background-size: cover;
-    height: calc(100% - 100px);
-    border-radius: 12px;
-    margin: 10px;
-}
-
-.editors-pick#classics .cards .card.thirteen .wrapper{
-    background-image: url('./Images/ferrari/mockup-10.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -841,7 +818,7 @@ body{
 }
 
 .editors-pick#limited-edition .cards .card.two .wrapper{
-    background-image: url('./Images/911/mockup-1.jpg');
+    background-image: url('./Images/ferrari/mockup-1.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -850,7 +827,7 @@ body{
 }
 
 .editors-pick#limited-edition .cards .card.three .wrapper{
-    background-image: url('./Images/ferrari/mockup-11.jpg');
+    background-image: url('./Images/r35/mockup-1.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -868,16 +845,7 @@ body{
 }
 
 .editors-pick#limited-edition .cards .card.five .wrapper{
-    background-image: url('./Images/ferrari/mockup-1.jpg');
-    background-position: center;
-    background-size: cover;
-    height: calc(100% - 100px);
-    border-radius: 12px;
-    margin: 10px;
-}
-
-.editors-pick#limited-edition .cards .card.six .wrapper{
-    background-image: url('./Images/r35/mockup-1.jpg');
+    background-image: url('./Images/911/mockup-1.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -1379,6 +1347,10 @@ body{
     font-weight: 500;
 }
 
+.main-container .bread-crumb p{
+    line-height: 1.50;
+}
+
 .main-container .bread-crumb i.ph-house{
     font-size: 22px;
 }
@@ -1434,6 +1406,7 @@ body{
 
 .product-section .the-product .details-sec .pro-heading h2{
     font-size: 36px;
+    line-height: 1.36;
 }
 
 .product-section .the-product .details-sec .pro-heading h4{
@@ -2299,6 +2272,15 @@ body{
     background-color: transparent;
     border: 1px solid #e3e3e3;
     color: #e3e3e3;
+}
+
+.redirect{
+    margin: 1.5rem 2.5rem;
+}
+
+.redirect .heading{
+    padding-bottom: 5px;
+    line-height: 1.45;
 }
 
 /* ==== MEDIA QUERIES ==== */
@@ -3408,6 +3390,12 @@ body{
     .about-us-container .wrapper .desc p {
         font-size: 13px;
     }
+    .shop-all .wrapper#homepage-banner .text .mini-heading p {
+        font-size: 15px;
+    }
+    .shop-all .wrapper#homepage-banner .text .heading h3 {
+        font-size: 34px;
+    }
 }
 @media (max-width: 450px) {
     .shop-all .wrapper .text .mini-heading p {
@@ -3604,6 +3592,9 @@ body{
         top: 5px;
     }
     .main-container .navbar nav .logo h1 {
+        font-size: 30px;
+    }
+    .shop-all .wrapper#homepage-banner .text .heading h3 {
         font-size: 30px;
     }
 }
@@ -3906,6 +3897,12 @@ body{
     }
     .main-container .navbar nav .logo h1 {
         font-size: 24px;
+    }
+    .shop-all .wrapper#homepage-banner .text .mini-heading p {
+        font-size: 13px;
+    }
+    .shop-all .wrapper#homepage-banner .text .heading h3 {
+        font-size: 27px;
     }
 }
 @media (max-width: 320px) {
