@@ -3239,7 +3239,7 @@ body{
         gap: .6rem;
     }
     .product-section .the-product .details-sec .full-specs {
-        max-width: 400px;
+        /* max-width: 400px; */
     }
     .product-section .the-product .image-sec .main-img {
         width: 100%;
