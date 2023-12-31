@@ -645,7 +645,7 @@ body{
 /* ==== NEW ARRIVALS ==== */
 
 .editors-pick#new-arrivals .cards .card.one .wrapper{
-    background-image: url('./Images/r34/mockup-1.jpg');
+    background-image: url('./Images/ferrari/mockup-2.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
@@ -654,7 +654,7 @@ body{
 }
 
 .editors-pick#new-arrivals .cards .card.two .wrapper{
-    background-image: url('./Images/ferrari/mockup-2.jpg');
+    background-image: url('./Images/ferrari/mockup-6.jpg');
     background-position: center;
     background-size: cover;
     height: calc(100% - 100px);
