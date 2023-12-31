@@ -283,7 +283,7 @@ body{
 }
 
 .varities-of-posters .cards .card#custom-made-hp .wrapper{
-    background-image: url('./Images/showcase/custom-made.jpg');
+    background-image: url('Images/showcase/custom-made.jpg');
     background-position: center;
     background-size: cover;
     height: 100%;
