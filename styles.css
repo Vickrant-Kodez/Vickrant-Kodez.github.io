@@ -3134,10 +3134,13 @@ body{
     .custom-made-container .heading h1 {
         font-size: 25px;
     }
+     .editors-pick .cards {
+        gap: 1.1rem;
+    }
 }
 @media (max-width: 550px) {
     .editors-pick .cards {
-        gap: 1.5rem;
+        gap: 1.1rem;
         grid-template-columns: repeat(2, 1fr);
     }
     .editors-pick .cards .card{
@@ -3303,7 +3306,7 @@ body{
         padding-bottom: 3rem;
     }
     .editors-pick .cards {
-        gap: 1.5rem;
+        gap: 1.2rem;
         grid-template-columns: repeat(1, 1fr);
     }
     .editors-pick .cards .card{
@@ -3357,7 +3360,7 @@ body{
     .two-shop-now.collections {
         display: grid;
         align-items: center;
-        grid-template-columns: repeat(1, 1fr);
+        : repeat(1, 1fr);
     }
     .sale-cards {
         height: 500px;
@@ -3519,7 +3522,7 @@ body{
         /* justify-content: center; */
     }
     .winter-sale.products .cards {
-        grid-template-columns: repeat(1, 1fr);
+        : repeat(1, 1fr);
         gap: 1.5rem;
     }
     .winter-sale.products .cards .card{
